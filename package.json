@@ -1,5 +1,6 @@
 {
   "name": "pentagram-editor",
+  "homepage": "https://ci-cd-hackaton-victor-degyves.s3-website-us-west-1.amazonaws.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
