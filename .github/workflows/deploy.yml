@@ -26,8 +26,8 @@ jobs:
 
       - verify: check env vars
         run: |
-          echo "Check AWS_S3_BUCKET: S[{ AWS_S3_BUCKET }]"
-          echo "Check vars.S3_BUCKET_NAME: S[{ VARS_S3_BUCKET_NAME }]"
+          echo "Check AWS_S3_BUCKET: ${{ AWS_S3_BUCKET }}"
+          echo "Check vars.S3_BUCKET_NAME: ${{ VARS_S3_BUCKET_NAME }}"
 
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@master
