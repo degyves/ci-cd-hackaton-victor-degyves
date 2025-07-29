@@ -5,6 +5,10 @@ on:
     branches:
       - main  # or your deployment branch
 
+permissions: # Reduce GITHUB_TOKENS permissions
+  contents: read # Set contents to read-only
+  packages: read # If you are also interacting with packages
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
