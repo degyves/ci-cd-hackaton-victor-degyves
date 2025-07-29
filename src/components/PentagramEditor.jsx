@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Renderer, Stave, StaveNote, Voice, Formatter, Beam, Dot } from 'vexflow';
+import { Renderer, Stave, StaveNote, Voice, Formatter } from 'vexflow';
 import * as Tone from 'tone';
 
 const PentagramEditor = () => {
