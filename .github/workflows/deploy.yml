@@ -24,7 +24,7 @@ jobs:
       - name: Build React app
         run: CI=false npm run build
 
-      - verify: check env vars
+      - name: Verify env vars
         run: |
           echo "Check AWS_S3_BUCKET: ${{ AWS_S3_BUCKET }}"
           echo "Check vars.S3_BUCKET_NAME: ${{ VARS_S3_BUCKET_NAME }}"
